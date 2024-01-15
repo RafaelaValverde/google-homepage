@@ -10,62 +10,504 @@
     <link rel="stylesheet" href="style.css" />
 
     <script>
-    window.digitalData = {
-        "atenea": {
-                "pageActivity": {
-                },
-                "productList": {
-                },
-                "vehicle": {},
-                "userInfo": {
-                }
-        },
-        "page": {
-                "pageActivity": {
-                },
-                "pageInfo": {
-                        "level1": "landing",
-                        "area": "publica",
-                        "businessUnit": "[Por definir]",
-                        "channel": "online",
-                        "language": "ES",
-                        "pageName": "escritorio:publica:test",
-                        "pageSegment": "publica",
-                        "projectName": "[Por definir]",
-                        "server": window.location.hostname,
-                        "siteAppName": "[Por definir]",
-                        "sysEnv": "escritorio",
-                        "version": "[Versión del paquete de deployment]"
-                }
-        },
+    window.digitalData={
+    "application": {
         "application": {
-                "application": {
+            "name": "",
+            "type": ""
+        },
+        "customFields": "",
+        "earnings": "",
+        "errorType": "",
+        "expenses": "",
+        "fulfillmentModel": "",
+        "globalApplication": "",
+        "interactionLevel": "",
+        "isQualifiedVisits": "",
+        "offer": "",
+        "operationNumber": "",
+        "process": "",
+        "programTypeHired": "",
+        "state": "",
+        "step": "",
+        "transactionID": "",
+        "typology": ""
+    },
+    "internalCampaign": {
+        "attributes": [],
+        "event": {
+            "eventInfo": {
+                "eventName": "",
+                "siteActionName": ""
+            }
+        }
+    },
+    "optimization": {
+        "attributes": [
+            {
+                "idOptimization": "",
+                "experience": "",
+                "place": "",
+                "collection": "",
+                "collectionID": "",
+                "collectionPosition": "",
+                "collectionStatus": "",
+                "collectionStatusTimeChange": "",
+                "item": "",
+                "itemID": "",
+                "itemPosition": "",
+                "itemCategory": "",
+                "itemStatus": "",
+                "itemStatusTimeChange": "",
+                "contractID": "",
+                "type": "",
+                "executor": "",
+                "audience": ""
+            }
+        ],
+        "event": {
+            "eventName": "",
+            "optimizationEvent": ""
+        }
+    },
+    "page": {
+        "pageActivity": {
+            "loginType": "",
+            "audio": {
+                "nameOfPodcastDisplayed": "",
+                "duration": "",
+                "id": "",
+                "player": "",
+                "quality": "",
+                "url": ""
+            },
+            "link": {
+                "aux1": "",
+                "aux2": "",
+                "aux3": "",
+                "ext": "",
+                "name": "",
+                "url": ""
+            },
+            "search": {
+                "onSiteSearchEnterTerm": "",
+                "onSiteSearchResults": "",
+                "onSiteSearchTerm": ""
+            },
+            "video": {
+                "nameOfVideoDisplayed": "",
+                "duration": "",
+                "id": "",
+                "player": "",
+                "quality": "",
+                "url": ""
+            }
+        },
+        "pageInfo": {
+            "area": "publica",
+            "businessUnit": "[Por definir]",
+            "channel": "online",
+            "errorPage": "",
+            "geoRegion": "",
+            "language": "ES",
+            "level1": "landing",
+            "level10": "",
+            "level2": "",
+            "level3": "",
+            "level4": "",
+            "level5": "",
+            "level6": "",
+            "level7": "",
+            "level8": "",
+            "level9": "",
+            "pageIntent": "",
+            "pageName": "escritorio:publica:test",
+            "pageSegment": "publica",
+            "projectName": "[Por definir]",
+            "server": "window.location.hostname",
+            "siteAppName": "[Por definir]",
+            "sysEnv": "escritorio",
+            "version": "[Versión del paquete de deployment]"
+        }
+    },
+    "pageInstanceID": "dev",
+    "versionDL":"20240115_4.10",
+    "products": {
+        "attributes": [
+            {
+                "primaryCategory": "prestamos",
+                "productSubtype": "",
+                "productName": "credito auto",
+                "productCode": "",
+                "contractID": "",
+                "quantity": "250000",
+                "amount": "175000",
+                "paymentAmount": "2916",
+                "numberOfPayments": "60",
+                "paymentDate": "",
+                "paymentType": "mensual",
+                "serviceCharge": "0",
+                "currency": "MXN",
+                "numberOfHolders": "",
+                "term": "1800",
+                "group": "",
+                "state": "",
+                "interestRate": {
+                    "tin": "",
+                    "tae": "13.8",
+                    "rate": "12.99"
+                }
+            }
+        ],
+        "productPortfolio": []
+    },
+    "user": {
+        "device": {
+            "root": "",
+            "mobile": "",
+            "userAgent": "",
+            "mode": "",
+            "IP": "",
+            "advertisingID": "",
+            "usabilityMethod": "",
+            "push": {
+                "agreement": "",
+                "deactivationPlace": ""
+            },
+            "biometry": {
+                "agreement": "",
+                "deactivationPlace": ""
+            }
+        },
+        "consent": {
+            "advertising": "",
+            "analytics": "",
+            "optimization": "",
+            "version": "",
+            "technique": ""
+        },
+        "IDs": [
+            {
+                "platformCode": "google",
+                "prospectID": "",
+                "profileID": "VVVV44444",
+                "userID": ""
+            }
+        ],
+        "segment": {
+            "profile": "",
+            "global": "",
+            "collectiveID": "",
+            "digitalizationLevel": ""
+        },
+        "userScoring": "",
+        "e": "",
+        "p": "",
+        "gClientID": "",
+        "previousSessionID": "",
+        "age": "",
+        "civilStatus": "",
+        "country": "",
+        "educationLevel": "",
+        "gender": "",
+        "jobType": "",
+        "state": "",
+        "userState": "no logado"
+    },
+    "activationTools": {
+        "adobeAnalytics": "",
+        "googleAnalytics": "",
+        "meta": "",
+        "googleAds": "",
+        "adServer": "",
+        "mobileAttribution": "",
+        "feedback": ""
+    },
+    "moduloAutos": {
+        "userInfo": {
+            "userID": "UserId3030",
+            "isBuyer": "true",
+            "isSeller": "true"
+        },
+        "vehicle:": {
+            "id": "minicoopers2030",
+            "sku": "sku3030",
+            "brand": "mini30",
+            "model": "cooper30",
+            "version": "s",
+            "year": "2030",
+            "color": "rojo",
+            "owners": "2",
+            "price": "300000",
+            "showroom": "patriotismo",
+            "location": "cdmx",
+            "transmission": "dct",
+            "type": "hatchback",
+            "passengers": "5",
+            "engineSize": "2",
+            "hp": "200",
+            "traction": "delantera",
+            "cylinders": "4",
+            "turbo": "si",
+            "rimSize": "17",
+            "seatType": "piel",
+            "sellerID": "sellerid3030",
+            "km": "300000"
+        },
+        "productList": {
+            "searchResults": [
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
                 },
-        },
-        "products": {
-                "attributes": [],
-                "productPortfolio": []
-        },
-        "user": {
-                "device": {
-                     
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
+                }
+            ],
+            "favorites": [
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
                 },
-                "consent": {
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
+                }
+            ],
+            "mostVisited": [
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
                 },
-                "IDs": [],
-                "segment": {
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
+                }
+            ],
+            "recentlyAdded": [
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
                 },
-                "userState": "no logado"
+                {
+                    "id": "",
+                    "sku": "",
+                    "brand": "",
+                    "model": "",
+                    "version": "",
+                    "year": "",
+                    "color": "",
+                    "owners": "",
+                    "price": "",
+                    "showroom": "",
+                    "location": "",
+                    "km": "",
+                    "transmission": "",
+                    "verified": "",
+                    "reserved": "",
+                    "type": "",
+                    "passengers": "",
+                    "engineSize": "",
+                    "hp": "",
+                    "traction": "",
+                    "cylinders": "",
+                    "turbo": "",
+                    "rimSize": "",
+                    "seatType": "",
+                    "sellerID": ""
+                }
+            ]
         },
-        "activationTools": {
-        },
-        "internalCampaign": {
-        },
-        "optimization": {
-        },
-        "versionDL'": "'20230830_4.2",
-        "pageInstanceID": "dev"
-    };
+        "pageActivity": {
+            "origin": {
+                "listID": "",
+                "position": ""
+            },
+            "searchAdvanced": {
+                "brand": {},
+                "model": {},
+                "year": {},
+                "color": {},
+                "frontKm": "",
+                "frontPrice": "",
+                "transmission": {},
+                "location": {},
+                "verified": "",
+                "reserved": "",
+                "owners": {},
+                "type": {},
+                "passengers": {},
+                "toKm": "",
+                "toPrice": "",
+                "order": "",
+                "pagination": "",
+                "showroom": {}
+            }
+        }
+    }        
+};
     </script>
     
     <!--script de Adobe Launch-->
